@@ -1,0 +1,91 @@
+/* common code start */
+.container{
+    min-width: 400px;
+    max-width: 1100px;
+}
+body{
+    margin-top: 20px;
+}
+/* common code end */
+
+/* header section start */
+.header-top{
+    background: #006666;
+}
+.header-top-left a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+.header-top-left form{
+   position: relative;
+}
+.header-top-left form input#searchValue {
+    color: white;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+}
+.header-top-left form button{
+    color: white;
+    font-size: 13px;
+    background: transparent;
+    border: none;
+    position: absolute;
+    right: 0px;
+}
+.header-top-right a{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.header-poster{
+    background: url(../img/bb_banner.jpg) no-repeat;
+    height: 160px;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.header-poster .nav{
+    background: white;
+    margin-bottom: 3px;
+}
+.header-poster .nav li a{
+    color: rgb(67, 67, 146);
+    font-size: 13px;
+    font-weight: 550;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+.header-poster .nav li a:hover{
+    color: #00B16A;
+}
+/* header section end */
+
+/* offcanvas start*/
+.offcanvas-body{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.offcanvas-body li a{
+    color: rgb(67, 67, 146);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.5;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    display: block;
+    padding: 10px 22px;
+    border-bottom: 1px solid rgb(185, 185, 249);
+    transition: 0s linear;
+}
+.offcanvas-body ul li a:hover{
+    color: #00B16A;
+    background: #FAFAFA;
+}
+/* offcanvas end*/
